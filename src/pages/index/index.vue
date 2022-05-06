@@ -8,6 +8,7 @@
 </template>
 
 <script>
+	const utils = require('../../utils/index')
 	export default {
 		data() {
 			return {
@@ -15,7 +16,9 @@
 			}
 		},
 		onLoad() {
-
+			console.log('wx.env: ', wx.env)
+			console.log('my.env: ', my.env)
+			console.log('utils.fn1: ', utils.fn1())
 		},
 		methods: {
 
