@@ -8,7 +8,9 @@
 </template>
 
 <script>
-	const utils = require('../../utils/index')
+	import AuthingMove from './bundle'
+	// import { test } from './test'
+
 	export default {
 		data() {
 			return {
@@ -16,9 +18,18 @@
 			}
 		},
 		onLoad() {
-			console.log('wx.env: ', wx.env)
-			console.log('my.env: ', my.env)
-			console.log('utils.fn1: ', utils.fn1())
+			// test(0)
+			// console.log('----------: ', uni instanceof Proxy)
+			// uni.setStorageSync('storage_key', 'hello');
+			// uni.showToast({
+			// 	title: 'title123',
+			// 	icon: 'success',
+			// 	duration: 3000
+			// })
+
+			// console.log('AuthingMove: ', AuthingMove)
+
+			// AuthingMove.setStorageSync('a1b2', 'a1b2')
 		},
 		methods: {
 
