@@ -27,9 +27,14 @@
 			// 	duration: 3000
 			// })
 
-			// console.log('AuthingMove: ', AuthingMove)
+			console.log('AuthingMove:::::: ', Object.keys(AuthingMove))
 
 			// AuthingMove.setStorageSync('a1b2', 'a1b2')
+
+			my.setStorage({
+				key: '123321',
+				data: '123321'
+			})
 		},
 		methods: {
 
